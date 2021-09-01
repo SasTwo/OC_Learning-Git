@@ -1,0 +1,26 @@
+Pour rappel:
+	la société GitHub a opéré un changement de terme de “master” à “main” en octobre 2020. 
+	Vous serez amené à travailler avec ces deux termes.
+----------------
+Cagnotte infos:
+----------------
+La branche main ou master portera l’intégralité des modifications effectuées. 
+Le but n’est donc pas de réaliser les modifications directement sur cette branche, 
+mais de les réaliser sur d’autres branches, et après divers tests, de les intégrer sur la branche main ou master.
+
+Vous avez l’impression que c’est du charabia ? Je vous comprends tout à fait ! :lol:
+
+Il faut voir les branches comme autant de dossiers différents. Prenons un exemple concret. :)
+
+Imaginez que vous ayez réalisé une superbe application bancaire pour M. Robert, et que ce dernier 
+ait une superbe idée de cagnotte à ajouter à son application.
+
+Panique à bord dans votre tête ! Votre application fonctionne parfaitement, 
+elle est en production, et y toucher serait prendre le risque de tout faire planter.
+
+Avec Git et ses fameuses branches, pas de soucis. Vous pouvez créer une branche correspondant à l’évolution “cagnotte”, 
+et cela sans toucher à votre application en cours de production. 
+
+Une fois que toutes vos modifications auront été testées, 
+vous pourrez les envoyer en production sans crainte en les intégrant à la branche main 
+(et dans le pire des cas, revenir en arrière simplement) !
